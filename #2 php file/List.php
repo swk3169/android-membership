@@ -1,5 +1,5 @@
 <?php
-    $con = mysqli_connect("localhost", "root", "0091", "management");
+    $con = mysqli_connect("IP", "DB id", "DB pass", "DB table");
     $result = mysqli_query($con, "SELECT * FROM USER;");
     $response = array();
 
